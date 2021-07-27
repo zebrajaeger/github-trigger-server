@@ -53,6 +53,10 @@ and fill with content (replace with your data):
 }
 ```
 
+repo, ref and key be unused. 
+That means the server ignores the request parameter. 
+Otherwise, it compares the config and request value and only triggers the command if both values have exact the same value. 
+
 I strongly recommend using another port and put this server behind a reverse proxy (like nginx). 
 That also has the advantage to use letsencrypt for a https connection.  
 

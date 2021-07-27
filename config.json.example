@@ -1,0 +1,6 @@
+{
+  "repo": "zebrajaeger/website",
+  "ref": "refs/heads/release",
+  "onlyLastTrigger": true,
+  "key": "myGithubKey"
+}

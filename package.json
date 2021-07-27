@@ -1,0 +1,29 @@
+{
+  "name": "github-trigger-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "nodemon src/.",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zebrajaeger/github-trigger-server.git"
+  },
+  "keywords": [],
+  "author": "Lars Brandt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zebrajaeger/github-trigger-server/issues"
+  },
+  "homepage": "https://github.com/zebrajaeger/github-trigger-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "tcp-port-used": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

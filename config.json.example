@@ -2,5 +2,6 @@
   "repo": "zebrajaeger/website",
   "ref": "refs/heads/release",
   "onlyLastTrigger": true,
-  "key": "myGithubKey"
+  "key": "myGithubKey",
+  "command": "echo ${GH_REF} ${GH_REPO} ${GH_SHA}"
 }
